@@ -36,18 +36,8 @@ streamlit run app/dashboard.py
 ```
 
 Open browser: **http://localhost:8501** → Click "Load Variants" → Done! 🎉
-
----
-
-## 📸 Screenshots
-
-### Main Dashboard
-![Dashboard Overview](docs/dashboard_overview.png)
-*Interactive variant classification with ACMG criteria*
-
-### 3D Variant Landscape
-![3D Visualization](docs/3d_visualization.png)
-*Quality-based spatial representation of variants*
+Full results + MultiQC + DAG + annotated VCFs:  
+https://doi.org/10.5281/zenodo.17793952
 
 ---
 
