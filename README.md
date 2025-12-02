@@ -14,18 +14,18 @@
 
 **ClinVarify** is a production-ready, containerized germline variant calling pipeline that processes whole genome/exome sequencing data and visualizes pathogenic variants through an interactive ACMG-classified dashboard.
 
-### ✨ Key Features
+###  Key Features
 
-- 🔬 **Nextflow Pipeline** powered by nf-core/sarek for reproducible variant calling
-- 🎨 **Interactive Dashboard** with real-time ACMG classification
-- 🧬 **3D Visualization** of variant quality landscapes
-- 🐳 **Fully Containerized** with Docker for cross-platform compatibility
-- 📊 **Clinical-Grade Reporting** with pathogenic variant highlighting
-- ⚡ **One-Click Deployment** to Streamlit Cloud
+-  **Nextflow Pipeline** powered by nf-core/sarek for reproducible variant calling
+-  **Interactive Dashboard** with real-time ACMG classification
+-  **3D Visualization** of variant quality landscapes
+-  **Fully Containerized** with Docker for cross-platform compatibility
+-  **Clinical-Grade Reporting** with pathogenic variant highlighting
+-  **One-Click Deployment** to Streamlit Cloud
 
 ---
 
-## 🚀 Quick Start (2 Commands)
+##  Quick Start (2 Commands)
 
 ```bash
 # 1. Run variant calling pipeline (test mode - 3 minutes)
@@ -51,7 +51,7 @@ Open browser: **http://localhost:8501** → Click "Load Variants" → Done! 🎉
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ Open browser: **http://localhost:8501** → Click "Load Variants" → Done! 🎉
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/clinvarify.git
+git clone https://github.com/samanisrar200/clinvarify.git
 cd clinvarify
 
 # Install Python dependencies
@@ -75,7 +75,7 @@ conda activate clinvarify
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 clinvarify/
@@ -93,7 +93,7 @@ clinvarify/
 
 ---
 
-## 🧬 Pipeline Details
+##  Pipeline Details
 
 ### Variant Calling
 
@@ -136,7 +136,7 @@ Variants are classified based on:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Local Development
 ```bash
@@ -150,11 +150,10 @@ streamlit run app/dashboard.py
 3. Deploy from repository
 4. Share public URL!
 
-**Live Demo:** [https://clinvarify.streamlit.app](https://clinvarify.streamlit.app) *(example)*
 
 ---
 
-## 🧪 Testing with Real Data
+##  Testing with Real Data
 
 ### Option 1: Use Test Profile (Recommended)
 ```bash
@@ -180,7 +179,7 @@ nextflow run nf-core/sarek \
 
 ---
 
-## 📈 Performance
+##  Performance
 
 | Dataset | Runtime | Memory | Output Size |
 |---------|---------|--------|-------------|
@@ -192,7 +191,7 @@ nextflow run nf-core/sarek \
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please:
 
@@ -204,7 +203,7 @@ Contributions welcome! Please:
 
 ---
 
-## 📚 Resources
+##  Resources
 
 - [nf-core/sarek Documentation](https://nf-co.re/sarek)
 - [ACMG Guidelines (2015)](https://www.acmg.net/)
@@ -213,27 +212,27 @@ Contributions welcome! Please:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **For research use only.** This tool is not validated for clinical diagnosis. Always consult certified genetic counselors for clinical interpretation.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - see [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+Saman Israr  
+📧 samanisrar200@gmail.com
+🔗 [LinkedIn]([https://www.linkedin.com/in/saman-israr-200baac/]) | [GitHub](https://github.com/samanisrar200)
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 - **nf-core community** for the excellent Sarek pipeline
 - **GIAB consortium** for benchmark datasets
