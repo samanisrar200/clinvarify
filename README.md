@@ -64,22 +64,7 @@ conda activate clinvarify
 ```
 
 ---
-
-##  Project Structure
-
-```
-clinvarify/
-├── app/
-│   └── dashboard.py              # Streamlit application
-├── results/
-│   └── variants/
-│       └── haplotypecaller/
-│           └── sample.vcf.gz     # Output VCF files
-├── nextflow.config               # Pipeline configuration
-├── README.md                     # This file
-├── environment.yml               # Conda environment
-└── requirements.txt              # Python dependencies
-```
+`
 
 ---
 
