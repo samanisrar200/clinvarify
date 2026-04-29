@@ -64,9 +64,6 @@ conda activate clinvarify
 ```
 
 ---
-`
-
----
 
 ##  Pipeline Details
 
